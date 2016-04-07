@@ -1,0 +1,34 @@
+{
+  "name": "study-react-week1",
+  "version": "0.1.0",
+  "description": "study-react",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ulys/study-react-week-1.git"
+  },
+  "author": "anton.razumovskyy@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ulys/study-react-week-1/issues"
+  },
+  "homepage": "https://github.com/Ulys/study-react-week-1#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-loader": "^6.1.0",
+
+    "webpack": "^1.12.6",
+    "copy-webpack-plugin": "^0.2.0",
+    "webpack-dev-server": "^1.12.1",
+    "react-hot-loader": "^1.3.0"
+  }
+}

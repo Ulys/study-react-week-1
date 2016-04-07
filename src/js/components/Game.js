@@ -26,16 +26,18 @@ const possibleCombinationSum = function(arr, n) {
 
 class Game extends React.Component {
 	
-	getInitialState() {
-      return {
-        numberOfStars: Math.floor( Math.random() * 9 ) + 1,
-        selectedNumbers: [],
-        usedNumbers: [],
-        redraws: 5,
-        correct: null,
-        doneStatus: 'null'
-      };
-    }
+	constructor() {
+		super();
+
+		this.state = {
+	        numberOfStars: Math.floor( Math.random() * 9 ) + 1,
+	        selectedNumbers: [],
+	        usedNumbers: [],
+	        redraws: 5,
+	        correct: null,
+	        doneStatus: 'null'
+		}
+	}
 
     generateRandomNumberOfStars() {
     	return Math.floor( Math.random() * 9 ) + 1;
